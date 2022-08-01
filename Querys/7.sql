@@ -1,0 +1,2 @@
+ALTER TABLE Provee
+	ADD CONSTRAINT check_Precio CHECK(Precio < 20000)
